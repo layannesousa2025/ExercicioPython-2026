@@ -1,7 +1,7 @@
 
 # Programa que calcula a média de duas notas
-input1 = float(input("Digite a primeira nota: "))
-input2 = float(input("Digite a segunda nota: "))
+numero1 = float(input("Digite a primeira nota: "))
+numero2 = float(input("Digite a segunda nota: "))
 
 # Função que calcula a média de duas notas
 def media (nota1,nota2):
@@ -10,4 +10,4 @@ def media (nota1,nota2):
 
 
 #printa a média das notas
-print("A média das notas é:", media(input1, input2))
+print("A média das notas é:", media(numero1, numero2))
